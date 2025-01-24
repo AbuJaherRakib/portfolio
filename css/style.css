@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Poppins", serif;
 }
 ol, ul {
     list-style-type: none;
@@ -12,3 +13,287 @@ a {
 h1, h2, h3, h4, h5, h6,p {
     line-height: 0.8;
 }
+
+/* ==== navbar part css start  here ===== */
+.navbar {
+    display: flex;
+    background: #F9F9FC;
+    align-items: center;
+    padding: 25px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+}
+.navbar .nav-item .nav-link{
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    transition: all linear 0.2s;
+    
+}
+.navbar .nav-item .nav-link:hover{
+    color: #3303f4;
+}
+.navbar button{
+    display: flex;
+    align-items: center;
+    column-gap: 7px;
+    background: #5E3BEE;
+    color: #fff;
+    padding: 11px 22px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    transition: all 0.3s;
+    border: none;
+}
+.navbar button i{
+    font-size: 16px;
+}
+.navbar button:hover{
+    background: #3303f4;
+}
+
+
+/* ==== navbar part end css here ===== */
+
+
+/* ==== banner part css start  here ===== */
+#banner{
+    padding-top: 119px;
+    background:#F9F9FC;
+}
+#banner .banner-left span{
+    color: #5E3BEE;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+#banner .banner-left h1{
+    color: #333;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 78px;
+    margin-top: 11px;
+}
+#banner .banner-right img{
+    width: 100%;
+    height: 100%;
+}
+#banner .banner-left .banner-button{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    margin-top: 22px;
+}
+#banner .banner-left .banner-button button{
+    border-radius: 50px;
+    background: #5E3BEE;
+    color: #fff;
+    padding: 13px 32px;
+    border: none;
+    display: flex;
+    column-gap: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    transition: all 0.3s;
+    display: flex;
+    align-items: center;
+    column-gap: 9px;
+}
+.navbar button i{
+    font-size: 16px;
+}
+#banner .banner-left .banner-button button:hover{
+    background: #3303f4;
+}
+#banner .banner-left .banner-button a{
+    color: #333;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.5px;
+}
+/* ==== banner part end css here ===== */
+
+
+/* ==== counter part css start  here ===== */
+#counter{
+    padding-top: 90px;
+    background: #FFF;
+    margin-bottom: 40px;
+}
+
+#counter .counter-item h3{
+    color: #000;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px; /* 116.667% */
+    letter-spacing: 0.5px;
+}
+#counter .counter-item p{
+    color: rgba(18, 18, 18, 0.70);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+/* ==== counter part end css here ===== */
+
+
+/* ==== service part css start  here ===== */
+#service{
+    padding-top: 10px;
+    background: #fff;
+    padding-bottom: 140px;
+}
+#service h6{
+    color: #5E3BEE;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+}
+
+#service h6::after {
+    content: url(../images/Polygon\ 1.svg) "";
+    position: absolute;
+    left: 50px;
+    top: -36px;
+    z-index: -1;
+}
+#service h4{
+    color: #000;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 56px; /* 162.5% */
+    letter-spacing: 0.22px;
+    /* text-transform: uppercase; */
+}
+#service p{
+    color: rgba(18, 18, 18, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px; /* 162.5% */
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+    /* text-transform: uppercase; */
+}
+#service .service-item{
+    width: 376px;
+    height: 286px;
+    background: #FFF;
+    border-radius: 24px;
+    padding: 52px 34px;
+    filter: drop-shadow(37px 37px 80px rgba(0, 0, 0, 0.1));
+}
+#service .service-item img{
+    
+}
+#service .service-item h5{
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px; /* 133.333% */
+    letter-spacing: 0.5px;
+    margin-top: 22px;
+}
+#service .service-item p{
+    color: rgba(18, 18, 18, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px; /* 200% */
+    letter-spacing: 0.5px;
+}
+/* ==== service part end css here ===== */
+
+/* ==== about part css start  here ===== */
+#about{
+    background: url("../images/about-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 109px;
+    padding-bottom: 113px;
+
+}
+
+#about .about-left span{
+    color: #5E3BEE;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: 1.5px;
+}
+#about .about-left h5{
+    color: #333;
+    /* font-family: Poppins; */
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 78px; /* 130% */
+    text-transform: uppercase;
+    padding-right: 100px;
+    margin-top: 22px;
+    
+}
+#about .about-left p{
+    margin-top: 10px;
+    color: #333;
+    /* font-family: Poppins; */
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px; /* 130% */
+    letter-spacing: 0.5px;
+    /* text-transform: uppercase; */
+    padding-right: 50px;
+    
+}
+#about .about-left button{
+    display: flex;
+    align-items: center;
+    column-gap: 7px;
+    background: #5E3BEE;
+    color: #fff;
+    padding: 11px 22px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    transition: all 0.3s;
+    border: none;
+    margin-top: 32px;
+}
+#about .about-left button i{
+    font-size: 16px;
+}
+#about .about-left button:hover{
+    background: #3303f4;
+}
+/* ==== about part end css here ===== */
+
+
+/* ==== navbar part css start  here ===== */
+/* ==== navbar part end css here ===== */
